@@ -1,0 +1,66 @@
+/* Estilo general para el cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.5s ease; /* Transición suave al cambiar el fondo */
+}
+
+/* Fondo para las primeras 10 preguntas */
+.fondo-pregunta {
+    background-image: url('https://static.guiainfantil.com/uploads/salud/donarsangre-pe.jpg'); /* Imagen de fondo para las primeras 10 preguntas */
+}
+
+/* Fondo para la última pregunta */
+.fondo-linfo {
+    background-image: url('https://www.misistemainmune.es/wp-content/uploads/2022/01/AdobeStock_783049622-scaled.jpeg'); /* Imagen de fondo para la pregunta de linfocitos */
+}
+
+/* Contenedor principal */
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semi-transparente para el contenido */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 500px;
+}
+
+#pregunta-container {
+    margin-top: 20px;
+}
+
+#opciones {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#mensaje {
+    color: red;
+    margin-top: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
